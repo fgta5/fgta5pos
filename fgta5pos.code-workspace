@@ -1,0 +1,69 @@
+{
+	"folders": [
+		{
+			"name": "POS",
+			"path": "."
+		},
+		{
+			"path": "../../agungdhewe/webapps"
+		}
+	],
+	"settings": {
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": false,
+		"editor.tabSize": 4,
+
+
+		"terminal.integrated.enablePersistentSessions": false,
+		"terminal.integrated.persistentSessionReviveProcess": "never",
+		"remote.restoreForwardedPorts": false,
+		"breadcrumbs.showArrays": false,
+		"breadcrumbs.showBooleans": false,
+		"breadcrumbs.showClasses": false,
+		"breadcrumbs.showConstants": false,
+		"breadcrumbs.showConstructors": false,
+		"breadcrumbs.showEnumMembers": false,
+		"breadcrumbs.showEnums": false,
+		"breadcrumbs.showEvents": false,
+		"breadcrumbs.showFields": false,
+		"breadcrumbs.showFiles": false,
+		"breadcrumbs.showFunctions": false,
+		"breadcrumbs.showInterfaces": false,
+		"breadcrumbs.showKeys": false,
+		"breadcrumbs.showMethods": false,
+		"breadcrumbs.showModules": false,
+		"breadcrumbs.showNamespaces": false,
+		"breadcrumbs.showNull": false,
+		"breadcrumbs.showNumbers": false,
+		"breadcrumbs.showObjects": false,
+		"breadcrumbs.showOperators": false,
+		"breadcrumbs.showPackages": false,
+		"breadcrumbs.showProperties": false,
+		"breadcrumbs.showStrings": false,
+		"breadcrumbs.showStructs": false,
+		"breadcrumbs.showTypeParameters": false,
+		"breadcrumbs.showVariables": false
+	},
+
+
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Chrome",
+				"request": "launch",
+				"type": "chrome",
+				"url": "http://localhost:3000",
+				"webRoot": "${workspaceFolder}",
+				"windows": {
+					"userDataDir": "C:/Users/agung/.vscode/chrome-profile-ent"
+				},
+				"linux": {
+					"userDataDir": "/home/agung/.vscode/chrome-profile-ent"
+				},
+				"pathMapping": {
+				}
+			}				
+		]
+	}
+}
